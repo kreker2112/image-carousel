@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types"], // Указываем путь к типам
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
