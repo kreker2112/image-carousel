@@ -286,6 +286,16 @@ const preloadImages = (index: number) => {
       }
     }
   }
+
+  .carousel-image {
+    &:hover {
+      box-shadow: 0 2px 6px rgba(0, 255, 255, 0.5);
+    }
+
+    &.selected {
+      box-shadow: 0 3px 15px rgba(0, 255, 255, 0.5);
+    }
+  }
 }
 
 @media (max-width: 576px) {
